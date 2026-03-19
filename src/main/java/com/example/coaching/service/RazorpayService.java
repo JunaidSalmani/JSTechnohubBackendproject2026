@@ -52,6 +52,6 @@ public class RazorpayService {
         options.put("currency", "INR");
         options.put("payment_capture", 1);
 
-        return client.Orders.create(options);
+        return client.orders.create(options);
     }
 }
